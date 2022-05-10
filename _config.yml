@@ -13,34 +13,46 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Snoopyo Search
-email: info@snoopyo.com
+title: CNC ONE
+email: info@cnc.one
 description: >- # this means to ignore newlines until "baseurl:"
   Most powerful and bleazingly fast search engin.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "snoopyo.com" # the base hostname & protocol for your site, e.g. http://example.com
-policy_url: "https://snoopyo.com/policies" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://cnc.one" # the base hostname & protocol for your site, e.g. http://example.com
+policy_url: "https://cnc.one/policies" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Social usernames/URLs
+twitter_username: cnconemachines
+github_username:
+instagram_username: cnc.one.machines
+reddit_username:
+linkedin_link:
+google_plus_link:
+stackoverflow_link:
+xing_link:
+facebook_link: https://www.facebook.com/cnc.one.machines
+youtube_link: https://www.youtube.com/c/CNCONE
 
 newsletter:
   type: primary # [default, primary]
   message: Subscribe our newsletter to receive the latest news and exclusive offers.
   placeholder: Please Enter Your Email
   btn_text: SUBSCRIBE
-repository: "snoopyo/blog"
+repository: "cnc.one/blog"
 # Build settings
 
 markdown: kramdown
 highlighter: rouge
 
 show_excerpts: true
-disqus: snoopyo
+disqus: cnc.one
 paginate: 1
 date_format: "%b %-d, %Y"
 # theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-paginate 
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
