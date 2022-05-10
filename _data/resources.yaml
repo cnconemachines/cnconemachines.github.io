@@ -1,0 +1,60 @@
+prefix: https://res.cloudinary.com/snoopyo/image/upload/
+images:
+  # snoopyologo: https://res.cloudinary.com/nauman/image/upload/v1628062864/snoopyo/snoopyo-logo-big.png
+  snoopyologo: assets/images/cnc-one.png
+logos:
+  square-white: https://res.cloudinary.com/snoopyo/image/upload/v1541834557/snoopyosearch/resources/snoopyo-square-white-svg.svg
+  square-blue: https://res.cloudinary.com/snoopyo/image/upload/v1541834543/snoopyosearch/resources/snoopyo-square-blue-svg.svg
+  rectangle-light: https://res.cloudinary.com/snoopyo/image/upload/v1541834505/snoopyosearch/resources/snoopyo-rectangle-light-svg.svg
+  # rectangle-dark: https://res.cloudinary.com/snoopyo/image/upload/v1541834485/snoopyosearch/resources/snoopyo-rectangle-dark-svg.svg
+  rectangle-dark: assets/images/cnc-one.png
+  search-by-dark: https://res.cloudinary.com/snoopyo/image/upload/v1541834427/snoopyosearch/resources/search-by-snoopyo-dark-svg.svg
+favicons:
+  shortcut icon:
+    href: https://res.cloudinary.com/snoopyo/image/upload/v1542434762/snoopyosearch/resources/favicons/favicon.ico
+  icon:
+  - sizes: 16x16 32x32 64x64
+    href: https://res.cloudinary.com/snoopyo/image/upload/v1542434762/snoopyosearch/resources/favicons/favicon.ico
+  - type: image/png
+    sizes: 16x16
+    href: https://res.cloudinary.com/snoopyo/image/upload/v1542434761/snoopyosearch/resources/favicons/favicon-16.png
+  - type: image/png
+    sizes: 32x32
+    href: https://res.cloudinary.com/snoopyo/image/upload/v1542434762/snoopyosearch/resources/favicons/favicon-32.png
+  - type: image/png
+    sizes: 64x64
+    href: https://res.cloudinary.com/snoopyo/image/upload/v1542434762/snoopyosearch/resources/favicons/favicon-64.png
+  - type: image/png
+    sizes: 96x96
+    href: https://res.cloudinary.com/snoopyo/image/upload/v1542434762/snoopyosearch/resources/favicons/favicon-96.png
+  - type: image/png
+    sizes: 160x160
+    href: https://res.cloudinary.com/snoopyo/image/upload/v1542434763/snoopyosearch/resources/favicons/favicon-160.png
+  - type: image/png
+    sizes: 192x192
+    href: https://res.cloudinary.com/snoopyo/image/upload/v1542434765/snoopyosearch/resources/favicons/favicon-192.png
+  apple-touch-icon:
+    - sizes: 310x310
+      href: https://res.cloudinary.com/snoopyo/image/upload/v1542434765/snoopyosearch/resources/favicons/favicon-310.png
+    - sizes: 180x180
+      href: https://res.cloudinary.com/snoopyo/image/upload/v1542434764/snoopyosearch/resources/favicons/favicon-180.png
+    - sizes: 114x114
+      href: https://res.cloudinary.com/snoopyo/image/upload/v1542434762/snoopyosearch/resources/favicons/favicon-114.png
+    - sizes: 57x57
+      href: https://res.cloudinary.com/snoopyo/image/upload/v1542434762/snoopyosearch/resources/favicons/favicon-57.png
+    - sizes: 152x152
+      href: https://res.cloudinary.com/snoopyo/image/upload/v1542434762/snoopyosearch/resources/favicons/favicon-152.png
+    - sizes: 150x150
+      href: https://res.cloudinary.com/snoopyo/image/upload/v1542434762/snoopyosearch/resources/favicons/favicon-150.png
+    - sizes: 144x144
+      href: https://res.cloudinary.com/snoopyo/image/upload/v1542434762/snoopyosearch/resources/favicons/favicon-144.png
+    - sizes: 120x120
+      href: https://res.cloudinary.com/snoopyo/image/upload/v1542434762/snoopyosearch/resources/favicons/favicon-120.png
+    - sizes: 76x76
+      href: https://res.cloudinary.com/snoopyo/image/upload/v1542434762/snoopyosearch/resources/favicons/favicon-76.png
+    - sizes: 72x72
+      href: https://res.cloudinary.com/snoopyo/image/upload/v1542434762/snoopyosearch/resources/favicons/favicon-72.png
+    - sizes: 70x70
+      href: https://res.cloudinary.com/snoopyo/image/upload/v1542434762/snoopyosearch/resources/favicons/favicon-70.png
+    - sizes: 60x60
+      href: https://res.cloudinary.com/snoopyo/image/upload/v1542434761/snoopyosearch/resources/favicons/favicon-60.png

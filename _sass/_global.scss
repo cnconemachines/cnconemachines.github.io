@@ -1,0 +1,57 @@
+.landing-header {
+  .landing-header-content { background-color:#304dab; min-height: 170px; }
+  .nav-main {
+    border-bottom: 1px solid $white;
+    .navbar-brand img { max-width: 120px; }
+    .navbar-nav .nav-item a.nav-link { color: $white }
+  }
+}
+.category-list .category-list-item { color: $white; background-color: $snpy; }
+// Newsletter ===================================================
+.newsletter {
+  .message { color: $secondary; }
+  .newsletter-primary {
+    .message { color: $white; }
+    .input-group-text { color: $snpy; }
+    .modal-content, .modal-body .row { background-color: $snpy; }
+  }
+}
+// Share buttons ===================================================
+
+.btn-group-shares {
+  &.sticky-container {
+    position: absolute; top: 0; left: -60px;
+    a { display: block; margin-bottom: 10px; }
+  }
+  a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #fbfbfd;
+    color: #a7b3c6;
+    border: 1px solid #eceef2;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+    &:hover {
+      -webkit-transform: scale(1.3); -ms-transform: scale(1.3); transform: scale(1.3);
+      &.ic-fb { color: #3b5998; border-color: #3b5998; }
+      &.ic-tw { color: #55acee; border-color: #55acee; }
+      &.ic-gp { color: #dd4b39; border-color: #dd4 }
+      &.ic-pi { color: #ff0000; border-color: #ff0000; }
+      &.ic-in { color: #007bb5; border-color: #007bb5; }
+      &.ic-def { color: $snpy; border-color: $snpy-dark; }
+    }
+  }
+}
+
+// HOME/Posts ========================================================
+.posts {
+  .card {
+    transition: transform .3s,box-shadow .3s; border: 1px solid $white;
+    a { text-decoration: none; color: $secondary; }
+  }
+  .card:hover { box-shadow: 0 10px 22px 0 rgba(112,128,175,0.2); transform: scale(1.03); }
+}

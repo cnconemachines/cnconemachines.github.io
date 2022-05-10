@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <div class="py-5 bg-snpy-light">
+      <div class="container page-content">
+          {{ content }}
+      </div>
+    </div>
+
+    {%- include footer.html -%}
+    {%- include newsletter.html -%}
+    {% if jekyll.environment == 'production' %}
+    {%- include googleanalytics.html -%}
+    {% endif %}
+    {%- if site.disqus -%}
+    <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js" async></script>
+    {%- endif -%}
+  </body>
+
+</html>

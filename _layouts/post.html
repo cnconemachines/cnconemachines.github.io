@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<article>
+  <div class="container p-0 post-wrapper">
+    <main class="post blog-post">
+      <div class="post-thumbnail">
+        <img class="img-fluid" src="{{page.image}}">
+      </div>
+      <div class="post-content">
+        {%- if page.categories -%}
+        <div class="post-meta d-flex my-1">
+          <div class="category">{% for category in page.categories %}<a href="#">{{category}}</a>{% endfor %}</div>
+        </div>
+        {%- endif -%}
+        <header>
+          <h1>{{page.title}}</h1>
+          <div class="post-footer d-flex align-items-center flex-column flex-sm-row my-3">
+            {%-if page.author -%}
+            <a href="#" class="author d-flex align-items-center flex-wrap">
+              <div class="avatar"><img src="http://www.gravatar.com/avatar/{{page.author.avatar}}?s=50&default=mm" class="img-fluid"></div>
+              <div class="title"><span>{{page.author.name}}</span></div>
+            </a>
+            {%- endif -%}
+            <div class="d-flex align-items-center flex-wrap">       
+              <div class="date"><i class="far fa-clock"></i>{{ page.date | date: site.date_format }}</div>
+            </div>
+          </div>
+        </header>
+        <section>
+          <div class="post-body" >
+              {{ content }}
+          </div>
+        </section>
+        <footer>
+          <div class="post-tags"><a href="#" class="tag">#Business</a><a href="#" class="tag">#Tricks</a><a href="#" class="tag">#Financial</a><a href="#" class="tag">#Economy</a></div>
+          <div class="posts-nav d-flex justify-content-between align-items-stretch flex-column flex-md-row"><a href="#" class="prev-post text-left d-flex align-items-center">
+            <div class="icon prev"><i class="fa fa-angle-left"></i></div>
+            <div class="text"><strong class="text-primary">Previous Post </strong>
+              <h6>Import Data in seconds.</h6>
+            </div></a><a href="#" class="next-post text-right d-flex align-items-center justify-content-end">
+            <div class="text"><strong class="text-primary">Next Post </strong>
+              <h6>Categorize Data with ZERO effort.</h6>
+            </div>
+            <div class="icon next"><i class="fa fa-angle-right">   </i></div></a>
+          </div>
+          {% if site.disqus %}
+          <div class="post-comments">
+            {%- include disqus.html -%}
+          </div>
+          {% endif %}
+        </footer>
+      </div>
+    </main>
+  </div>
+</article>
