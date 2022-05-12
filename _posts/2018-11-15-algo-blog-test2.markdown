@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Test page"
-thumbnail: http://206.189.96.224/wp/wp-content/uploads/2018/11/10-2018_Black-Friday-360x200.png
+thumbnail: https://dummyimage.com/350x200/ccc/aaa
 # thumbnail: https://blog.algolia.com/wp-content/uploads/2018/10/Blogpost-Roadshow-Graphic-Final-V2-2x-1-360x200.png
 image: https://blog.algolia.com/wp-content/uploads/2018/10/10-2018_Black-Friday.png
 date:   2018-11-15 22:27:40 +0400
